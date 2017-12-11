@@ -14,6 +14,21 @@ h1,h5 {
 p,a {
   font-family: "Ropa Sans";
 }
+img {
+    display: block;
+    margin: 0 auto;
+}
+.bgimg {
+    background-image: url('pix/skyline.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.responsive{
+  width: 100%;
+  max width: 5000px;
+  height: auto;
+}
 </style>
 </head>
 <body>
@@ -32,8 +47,8 @@ p,a {
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img src="pix\gaurplains.jpg" alt="backgroundtop" width="1600" height="640">
+<header id="home">
+  <img class="bgimg w3-display-container responsive" src="pix\skyline.jpg">
   <div class="w3-display-middle">
     <img class= "w3-image" src="pix\logofinal1.png" width="500" height="200"></img>
   </div>
@@ -45,7 +60,7 @@ p,a {
   <!-- Profile Section -->
   <div class="w3-row w3-padding-64" id="profile">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="w3-black"  width="500" height="535">
+     <img class="responsive" src="pix/me.jpg"  width="500" height="535">
     </div>
 
     <div class="w3-col m6 w3-padding-large">
@@ -63,11 +78,11 @@ p,a {
     <div class="w3-col l6 w3-padding-large">
       <h1 class="w3-center">Portfolio</h1><br>
       <h4><i class="fa fa-file-image-o" aria-hidden="true"></i> Image Work</h4>
-      <p>link</p>
+      <p>link to portfolio</p>
       <h4><i class="fa fa-file-video-o" aria-hidden="true"></i> Video Work</h4>
       <p><a href="https://www.youtube.com/channel/UCbjL5S0GuJzRqtlCrQwr47g/" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i> ShiningDGames</a></p>
       <h4><i class="fa fa-file-text-o" aria-hidden="true"></i> Written Work</h4>
-      <p>link</p>
+      <p>link to drive when its up</p>
     </div>
 
     <div class="w3-col l6 w3-padding-large">
